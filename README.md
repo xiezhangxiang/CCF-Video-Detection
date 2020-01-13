@@ -11,19 +11,27 @@ CCF BDCI 2019爱奇艺视频版权检测竞赛第二名-博云视觉团队算法
 决赛第二名.
 
 ## Pipeline
-![img](./imgs/1.png) 
-
-![img](./imgs/2.png)
 
 <center class="half">
-<img src="imgs/1.png" width="250" height="100"/>
+<img src="imgs/1.png" width="600" height="250"/>
 </center>
 <br/>
 <center class="half">
-<img src="imgs/2.png" width="250" height="100"/>
+<img src="imgs/2.png" width="600" height="250"/>
 </center>
 
 [[说明论文地址]](https://discussion.datafountain.cn/questions/2236)
 
 ## 文件目录
+```text
+query_results_process.py - 读取视频检索的csv结果文件,选取topK结果用于重排序;
+extract_image.py - 视频对的帧图片提取;
+cdvs_gen_scores.py - 对视频对进行帧匹配,生成匹配分数;
+cdvs_matching.py - 使用cdvs分数重排序视频对和时间对齐;
+```
 
+## 实验结果
+在训练验证集上的实验结果.
+<center class="half">
+<img src="imgs/3.png" width="600" height="150"/>
+</center>
