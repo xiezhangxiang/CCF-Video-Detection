@@ -6,14 +6,22 @@ CCF BDCI 2019爱奇艺视频版权检测竞赛第二名-博云视觉团队算法
 
 ## 方案成绩
 
-复赛A榜成绩F1-score=95.95%,排名第一;
-复赛B榜成绩F1-score=93.95%,排名第三;
+复赛A榜成绩F1-score=95.95%,排名第一;<br/>
+复赛B榜成绩F1-score=93.95%,排名第三;<br/>
 决赛第二名.
 
 ## Pipeline
-![img](./imgs/1.png)
+![img](./imgs/1.png) 
 
 ![img](./imgs/2.png)
+
+<center class="half">
+<img src="imgs/1.png" width="250" height="100"/>
+</center>
+<br/>
+<center class="half">
+<img src="imgs/2.png" width="250" height="100"/>
+</center>
 
 [[说明论文地址]](https://discussion.datafountain.cn/questions/2236)
 
